@@ -11,14 +11,14 @@
 </p>
 
 <p align="center">
-  Built with ❤️ using Sketchware Pro & Android Studio  
+  Built with ❤️ using Android Studio  
 </p>
 
 ---
 
 ## ✨ Features at a Glance
 
-- 🚀 **Splash Screen** with API integration  
+- 🚀 **Splash Screen** with animation  
 - 🗂️ **Password List** with advanced search  
 - ➕ Add entries with:
   - 🖼️ Logo (via Storage Access Framework)
@@ -40,9 +40,8 @@
 
 ## 🛠️ Tech Stack
 
-- 🧩 **Sketchware Pro** – visual block-based development  
-- 🧠 **Android Studio** – for custom code & advanced tweaking  
-- 💻 Java | XML | Android SDK  
+- 💻 **Android Studio** – full-featured development environment  
+- 📱 Java | XML | Android SDK | Material Components  
 
 ---
 
@@ -52,7 +51,7 @@ Unlike cloud-based tools like Google Password Manager,
 **Safino stores everything 100% offline**, giving you total privacy and control.  
 
 It’s also a powerful open-source foundation for:
-- 🔧 Learning app development  
+- 🔧 Learning Android development  
 - ⚡ Publishing your own secure password manager  
 - 💰 Selling a branded version  
 
@@ -60,26 +59,22 @@ It’s also a powerful open-source foundation for:
 
 ## ▶️ How to Use & Setup
 
-> ⚠️ **Warning:** Do **NOT enable** "Debug Logcat" — custom `Application` class in use.
-
-### 1️⃣ Download & Restore  
-- Clone or download the repo  
-- Open the `.swb` file using Sketchware Pro
+### 1️⃣ Clone the Project  
+- Download or clone the repository  
+- Open it in **Android Studio**
 
 ### 2️⃣ Customize the App  
-- ✏️ Change app name and update `strings.xml`  
-- 🔁 Replace the package name in:
-  - All `.java` files  
-  - `AndroidManifest.xml`  
-- ℹ️ Edit "About" section with your info
+- ✏️ Change the app name in `res/values/strings.xml`  
+- 🔁 Replace the package name using **Refactor > Rename**:
+  - Update it in the manifest and Java files
 
-### 3️⃣ Update Icon  
+### 3️⃣ Update the App Icon  
 - Visit [icon.kitchen](https://icon.kitchen)  
-- Generate and replace the app icon files
+- Generate and replace the icon files in `res/mipmap-*`
 
-### 4️⃣ Add Custom Blocks  
-- Add your custom blocks in **Sketchware Pro**  
-- Build and test your APK
+### 4️⃣ Build & Test  
+- Plug in your Android device or use an emulator  
+- Click **Run** or **Build APK**
 
 ---
 
@@ -95,11 +90,11 @@ Click the image at the top or
 - ✅ **You Can:**
   - Use, modify, and publish your own version of the app  
   - Sell the **compiled APK**  
-  - Use **any Java classes** from the project, however and wherever you want
+  - Use **any Java classes** from the project however and wherever you want
 
 - ❌ **You Cannot:**
-  - Share or sell the original `.swb` project file  
-  - Re-upload or showcase this `.swb` file on **any YouTube channel**  
+  - Share or sell the original project structure as-is  
+  - Re-upload or showcase this original codebase on **any YouTube channel**  
 
 > This project is for **learning**, **customization**, and **app publishing** — not for raw source redistribution.
 
@@ -124,7 +119,7 @@ This project is **free to use, edit, and distribute** for:
 - ✅ Commercial use of the APK  
 - ✅ Full freedom to reuse any Java code or class without restrictions
 
-Just follow the policy: don’t reshare the `.swb` file, especially on YouTube.
+Just follow the policy: don’t reshare the complete source code without changes, especially on YouTube.
 
 ---
 
@@ -132,7 +127,7 @@ Just follow the policy: don’t reshare the `.swb` file, especially on YouTube.
 
 - 🌟 Star this repo to support the creator  
 - 🛠️ Submit feature requests or improvements  
-- 📤 Share your own versions with no credits
+- 📤 Share your own versions with no credits required
 
 ---
 
